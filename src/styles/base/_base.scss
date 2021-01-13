@@ -1,0 +1,24 @@
+body {
+  background: $page-bg-color;
+  color: $grey-color;
+  height: 100%;
+  position: relative;
+  min-height: 100vh;
+}
+
+.bg_overlay {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  background: $secondary-color;
+  background: linear-gradient(180deg, rgba(23, 0, 50, 0) 20%, $secondary-color);
+}
+
+.nowrap {
+  white-space: nowrap;
+}

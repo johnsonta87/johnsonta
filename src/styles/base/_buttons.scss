@@ -1,0 +1,57 @@
+.back-btn {
+  position: fixed;
+  top: 25px;
+  left: 25px;
+
+  @media screen and (max-width: 991px) {
+    position: absolute;
+  }
+
+  a {
+    overflow: hidden;
+    font-size: 0.7em;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px 15px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin: 0;
+    line-height: 1;
+    display: inline-block;
+    position: relative;
+
+    &:hover {
+      color: #000;
+      text-decoration: none;
+      &:after {
+        height: 100%;
+      }
+    }
+
+    svg {
+      font-size: 1rem;
+      position: relative;
+      top: 4px;
+    }
+
+    &:after {
+      content: "";
+      background-color: $primary-color;
+      height: 0;
+      width: 100%;
+      transition: height 0.15s linear;
+      -webkit-transition: height 0.15s linear;
+      -moz-transition: height 0.15s linear;
+      -ms-transition: height 0.15s linear;
+      -o-transition: height 0.15s linear;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      z-index: -1;
+      overflow: hidden;
+    }
+  }
+}

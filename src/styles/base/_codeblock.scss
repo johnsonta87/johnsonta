@@ -1,0 +1,16 @@
+pre {
+  display: inline-block;
+  background: $light-purple;
+  padding-top: 16px;
+  padding-left: 40px;
+  border-radius: 5px;
+  padding-right: 40px;
+  padding-bottom: 16px;
+  margin-bottom: 1rem;
+
+  code {
+    color: $primary-color;
+    background: $light-purple;
+    border-radius: 5px;
+  }
+}

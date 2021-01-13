@@ -1,0 +1,22 @@
+.post-item {
+  border: 1px solid #ffffff;
+  padding: 25px 50px;
+
+  .readmore-link {
+    color: $primary-color;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.article-title {
+  color: $primary-color;
+
+  > a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
