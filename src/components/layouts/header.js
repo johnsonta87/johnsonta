@@ -1,14 +1,14 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import Image from '../Image';
+import Img from '../Image';
 
 const Header = ({ siteTitle }) => (
   <header>
     <div className="flex items-center justify-center content-center mb-12">
       <div className="flex-col">
         <div className="avatar items-center mx-auto mb-5">
-          <Image alt={siteTitle} filename="avatar/avatar.jpg" className="self-center w-25 avatar-img" />
+          <Img alt={siteTitle} filename="avatar/avatar.jpg" className="self-center w-25 avatar-img" />
         </div>
         <div className="w-full flex-1 text-center mb-5">
           <h1 className="text-5xl font-bold title">
