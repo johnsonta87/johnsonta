@@ -1,15 +1,13 @@
 import React from "react"
-import { Link } from "gatsby"
 
+import BackButton from "../components/BackButton"
 import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
 
 const Uses = () => (
   <Layout>
     <SEO title="Uses" />
-    <div className="back-btn">
-      <Link to="/">Go home</Link>
-    </div>
+    <BackButton link="/" value="Go Home" />
 
     <section className="mt-8 uses-section grid grid-cols-2">
       <div className="uses-list">
@@ -19,6 +17,8 @@ const Uses = () => (
           <li>Ducky One 2 White LED keyboard</li>
           <li>Deathadder Chroma mouse</li>
           <li>Bose SoundSport Wireless earphones</li>
+          <li>Philips 24" monitor</li>
+          <li>Dell 24" monitor</li>
         </ul>
       </div>
 

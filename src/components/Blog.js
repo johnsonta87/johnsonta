@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
 import Img from "gatsby-image"
+import { AiFillCaretRight } from "react-icons/ai";
 
 const Blog = () => {
   const data = useStaticQuery(
@@ -55,7 +56,7 @@ const Blog = () => {
             </p>
             <div className="mt-4 button readmore-link">
               <Link
-                to={`/blog/${edge.node.slug}/`}>Read more</Link>
+                to={`/blog/${edge.node.slug}/`}>Read more <AiFillCaretRight /></Link>
             </div>
           </div>
         )

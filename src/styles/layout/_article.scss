@@ -5,8 +5,13 @@
   .readmore-link {
     color: $primary-color;
 
-    &:hover {
-      text-decoration: underline;
+    > a,
+    svg {
+      display: inline-block;
+
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
 }

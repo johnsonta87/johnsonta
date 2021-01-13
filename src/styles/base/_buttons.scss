@@ -20,14 +20,13 @@ button {
     font-size: 0.7em;
     color: #fff;
     border: 1px solid #fff;
-    padding: 10px 20px 15px;
+    padding: 8px 20px 8px;
     border-radius: 25px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
     margin: 0;
-    line-height: 1;
     display: inline-block;
     position: relative;
 
@@ -40,9 +39,8 @@ button {
     }
 
     svg {
+      display: inline;
       font-size: 1rem;
-      position: relative;
-      top: 4px;
     }
 
     &:after {

@@ -27,7 +27,7 @@ export default function EmailJSForm() {
   return (
     <form onSubmit={handleSubmit(onSubmit)} id="contact-form">
       <h2 className="text-3xl text-center font-bold mb-6 leading-7 form-title">Get in touch</h2>
-      <div className="form-column grid grid-cols-3 gap-4">
+      <div className="form-column grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="form-field">
           <input type="text" name="fullName" ref={register({ required: true })} placeholder="Name" tabIndex="-1" />
           {errors.fullName && <span className="error-field">{errorMsg}</span>}

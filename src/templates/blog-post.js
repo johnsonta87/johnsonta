@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 
+import BackButton from "../components/BackButton"
 import Layout from "../components/layouts/layout"
 import Img from "gatsby-image"
 import SEO from "../components/seo"
@@ -37,9 +38,7 @@ const BlogPost = ({ data }) => {
   return (
     <Layout>
       <SEO title={title} />
-      <div className="back-btn">
-        <Link to="/blog/">See other posts</Link>
-      </div>
+      <BackButton link="/blog/" value="See other articles" />
 
       <div className="article-header">
         <h1 className="font-bold text-5xl article-title max-w-prose mb-3">{title}</h1>
