@@ -38,7 +38,7 @@ const BlogPost = ({ data }) => {
     <Layout>
       <SEO title={title} />
       <div className="back-btn">
-        <Link to="/">See other posts</Link>
+        <Link to="/blog/">See other posts</Link>
       </div>
 
       <div className="article-header">
