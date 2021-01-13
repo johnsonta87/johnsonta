@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
@@ -6,10 +7,13 @@ import SEO from "../components/seo"
 const Uses = () => (
   <Layout>
     <SEO title="Uses" />
+    <div className="back-btn">
+      <Link to="/">Go home</Link>
+    </div>
 
     <section className="mt-8 uses-section grid grid-cols-2">
       <div className="uses-list">
-        <h2 className="text-xl font-bold">Devices</h2>
+        <h2 className="text-xl font-bold heading">Devices</h2>
         <ul>
           <li>Dell Windows 10 Enterprise labtop</li>
           <li>Ducky One 2 White LED keyboard</li>
@@ -19,7 +23,7 @@ const Uses = () => (
       </div>
 
       <div className="uses-list">
-        <h2 className="text-xl font-bold">Softwares</h2>
+        <h2 className="text-xl font-bold heading">Softwares</h2>
         <ul>
           <li>VSCode</li>
           <li>Terminal / Oh My Zsh</li>

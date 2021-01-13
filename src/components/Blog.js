@@ -36,7 +36,7 @@ const Blog = () => {
         return (
           <div key={edge.node.id} className="post-item rounded-lg mt-6 mb-6 text-center">
             <p className="text-sm mb-2 meta">
-              {edge.node.publishDate} &middot; {edge.node.tags}
+              {edge.node.publishDate}
             </p>
             <div>
               <h2 className="text-2xl font-bold mb-2 leading-7 article-title">
