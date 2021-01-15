@@ -1,15 +1,15 @@
 import React from "react"
 
-import Form from "../components/Form"
+import Work from "../components/Work"
 import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const WorkPage = () => (
   <Layout>
     <SEO title="Home" />
 
-    <Form />
+    <Work />
   </Layout>
 )
 
-export default IndexPage
+export default WorkPage

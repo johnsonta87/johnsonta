@@ -12,7 +12,7 @@ export default function footer() {
         <p>&copy; {new Date().getFullYear()} Built with Gatsby React / Contentful + deployed by Netlify</p>
       </div>
       <div className="footer_links">
-        <Link to="/">Home</Link>
+        <Link to="/">Contact me</Link>
         <Link to="/blog">Blog</Link>
         <Link to="/uses">Uses</Link>
       </div>

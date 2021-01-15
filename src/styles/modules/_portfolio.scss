@@ -1,0 +1,33 @@
+.portfolio-list {
+  .featured {
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+  .portfolio-contents {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    color: $white-colors;
+    text-decoration: none;
+
+    .inner {
+      position: absolute;
+      bottom: 40px;
+      left: 40px;
+      right: 40px;
+      z-index: 3;
+      -webkit-transition: -webkit-transform 600ms cubic-bezier(0.7, 0, 0.3, 1)
+        0ms;
+      -moz-transition: -moz-transform 600ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+      transition: transform 600ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+    }
+  }
+}
